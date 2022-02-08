@@ -325,3 +325,9 @@ jQuery(document).ready(function(){
 			theme_tm_cursor()	
 		
 }); // end document ready function
+
+//animation to about
+$('.hro-btn').click( function (){	
+	 $('#hidden-text').toggleClass('text-2');
+})
+

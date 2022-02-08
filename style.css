@@ -190,6 +190,10 @@ select:focus {
   span.colored{
 	  color:#F9CA22 !important;
   }
+  
+   span.text-2{
+    display:none;
+  }
  
  /* bounce-animate */
 .bounce-animate {
@@ -1162,7 +1166,9 @@ p.text-16.header_type_text span.typed {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 3rem; }
+  margin-top: 3rem; 
+  margin-bottom: 3rem; 
+}
 
 .hhm-as {
   position: absolute;
